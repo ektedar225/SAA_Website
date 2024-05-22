@@ -71,7 +71,11 @@ const Events = db.ORM.define(
             );
           } catch (error) {
             if (error.code === "ENOENT") {
-              const newPath = path.join(process.cwd(),'public',instance.mediaDirectory)
+              const newPath = path.join(
+                process.cwd(),
+                "public",
+                instance.mediaDirectory
+              );
               await fs.mkdir(newPath, { recursive: true });
               logger(
                 `New directory ${instance.mediaDirectory} created successfully`,
