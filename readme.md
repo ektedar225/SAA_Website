@@ -5,7 +5,8 @@ A Responsive and an attractive website for the Society Of Alumni Affairs.
 Clone the github repo and run the following commands
 ```
 npm i
-npm run start
+npm run seed
+npm run dev
 ```
 
 ## Getting involved
