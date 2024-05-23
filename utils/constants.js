@@ -6,7 +6,7 @@ const HOME_PAGE_NAVLINKS = {
   home: ["Home", "/home"],
   team: ["Team", "/team"],
  
-  gallery: ["Gallery", "/gallery"],
+  activities: ["Activities", "/activities"],
   visit_IITJ: ["Visit IITJ", "/visitIITJ"],
   giving_back: ["Giving back", "/givingBack"],
   quick_access: [
